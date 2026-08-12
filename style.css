@@ -1,1 +1,74 @@
+body {
+    max-width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+}
 
+header {
+    background-color: #1e5f8a; /* Azul principal */
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+main {
+    background-color: #ffffff;
+    color: #1e5f8a;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    border: 2px solid #1e5f8a;
+    border-radius: 8px;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 280px;
+    max-width: 350px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    color: #e05297; /* Rosa secundário */
+}
+
+.artigo-fonte {
+    font-size: 0.85em;
+    color: #666666;
+}
+
+button {
+    background-color: #fce4ec;
+    border: 1px solid #e05297;
+    color: #e05297; /* Rosa nos botões */
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 4px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #e05297;
+    color: #ffffff;
+}
